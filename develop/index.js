@@ -11,18 +11,24 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'About',
-        message: 'Enter the about section (Required)',
+        name: 'about',
+        message: 'Enter the about section.',
     },
     {
         type: 'input',
         name: 'motivation',
-        message: 'What was your motivation to make this? (Required)'
+        message: 'What was your motivation to make this?'
     },
     {
         type: 'input',
         name: 'purpose',
         message: 'What does your project do?',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Select the type of license you are using.',
+        choices: ['MIT', 'BSD', 'GPL', 'Apache', 'None']
     },
     {
         type: 'input',
